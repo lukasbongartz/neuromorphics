@@ -1,12 +1,11 @@
 # neuromorphics
 Repo to organize our code for the neuromorphics project @ Stanford
 
-L.Bongartz 16.03.2023
+L.Bongartz 09/05/2023
 
 **Intro to using the MCC Daq Cards for reservoir computing**
 
-In this folder, you find two subfolders, Python & Data. Python contains the code files to run the MCC
-cards. Data contains the input (if used) and output data. Independent of whether you use functions
+The folder Python contains the code files to run the MCC cards. Data contains the output data. Independent of whether you use functions
 (sin, square...) or real data as the input, your output will be saved there.
 
 At the moment, I plan to use only 4 output channels of the cards, i.e. 4 input channels to the reservoir, which is sufficient
@@ -68,8 +67,7 @@ The same as Input_Boards_0.py, but for using the input channels of a second boar
 
 **How to get started**
 
-First, you need to download the Instacal-software from https://www.mccdaq.com/daq-software/instacal.aspx In this software, you can set and test basic functions of the boards. Here is also where, if you use two boards, the indices
-of board 0 and board 1 are assigned.
+First, you need to download the Instacal-software from https://www.mccdaq.com/daq-software/instacal.aspx In this software, you can set and test basic functions of the boards. Here is also where, if you use two boards, the indices of board 0 and board 1 are assigned.
 
 Then, go to your favorite python environment (I recommend VS Code) and open the Python Folder. I also recommend working
 in a virtual environment (see https://code.visualstudio.com/docs/python/environments), since I already installed such a venv
