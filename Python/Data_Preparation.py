@@ -25,9 +25,6 @@ if __name__ == '__main__':
     input_path = Path(
         path)
 
-        #r'C:\Users\Steiner\Documents\Python\SPRInd-challenge\data\training'
-        #r'\input')
-
     all_input_files = list(sorted(input_path.glob("*.csv")))
     num_files = len(all_input_files)
 
